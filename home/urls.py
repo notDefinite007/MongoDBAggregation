@@ -7,4 +7,5 @@ urlpatterns = [
     path('blogs', view=views.list_all_blogs),
     path('user/<str:username>', view=views.get_details_by_user),
     path('user', view=views.list_all_users),
+    path('find_store', view=views.find_stores)
 ]
